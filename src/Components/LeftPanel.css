@@ -1,0 +1,74 @@
+.left-panel {
+  width: 25%;
+  background-color: #fffcfc;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  overflow-y: auto; /* Add overflow-y for vertical scrollbar */
+  
+}
+/* Style the scrollbar */
+.left-panel::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  background-color: transparent; /* Background color of the scrollbar track */
+}
+
+/* Style the scrollbar thumb */
+.left-panel::-webkit-scrollbar-thumb {
+  background-color: #D9D9D9;
+   /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Border radius of the scrollbar thumb */
+}
+
+.add-button {
+  position: fixed;
+  bottom: 20px;
+  left: 360px; /* Adjust left position */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:  #16008B;
+  color: white;
+  font-size: 42px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading2 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 41.02px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+
+/* Styles for Mobile */
+@media only screen and (max-width: 600px) {
+  .left-panel {
+    width: 100%; /* Full width on mobile */
+    height: 100vh; /* Full height on mobile */
+    position: fixed;
+    z-index: 1;
+    overflow-y: auto;
+  }
+
+  .add-button {
+    position: fixed;
+    bottom: 20px;
+    left: 345px; /* Center the button horizontally */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #16008B;
+    color: white;
+    font-size: 42px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+}

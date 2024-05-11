@@ -1,0 +1,35 @@
+img {
+    position: fixed;
+    left:600px;
+    top:100px;
+  }
+
+  .heading1{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+ .Para1{
+    position: fixed;
+    left:600px;
+    top:400px;
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+
+ }
+  
+
+  .right-panel {
+    width: 70%;
+    padding: 20px;
+    background-color: #DAE5F5;
+  }
+
+  

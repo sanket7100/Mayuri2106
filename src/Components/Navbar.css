@@ -1,0 +1,50 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #001F8B;
+  width: 1090px;
+height: 90px;
+opacity: 0px;
+position: fixed;
+
+}
+
+
+
+.navbar-initials {
+  width: 68.9px;
+    height: 68.9px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-family: Roboto;
+    font-size: 24.12px;
+    font-weight: 500;
+    line-height: 23.56px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
+
+.navbar-group-name {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  
+}
+
+
+@media (min-width: 768px) {
+  .navbar-back-button {
+    display: none;
+  }
+}
+

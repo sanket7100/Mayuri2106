@@ -1,0 +1,13 @@
+.right-panel-modified {
+ width: 75%;
+  background-color: #DAE5F5;
+
+  }
+  
+
+  @media (max-width: 767px) {
+    .right-panel-modified {
+      width: 100%; /* Adjust width for mobile to occupy the full width */
+      background-color: #DAE5F5;/* Adjust padding for mobile */
+    }
+  }
